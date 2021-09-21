@@ -1,23 +1,115 @@
-body{
-background-image: url(pattern-background-desktop.svg);
-font-size: 11px;
-text-align: center;
-font-family: 'Red Hat Display', sans-serif;
+body {
+  background-image: url(pattern-background-desktop.svg);
+  font-size: 11px;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #7280A7;
+  font-weight: 500;
 }
 
+h1 {
+  color: black;
+}
 
-.main-container{
+h3 {
+  color: black;
+}
+
+.main-container {
+  position: relative;
   align-items: center;
-  width: 366px;
-  height: 500px;
+  width: 320px;
+  height: 460px;
   margin: auto;
   border-radius: 25px;
   border: none;
   background-color: white;
-  }
+}
 
-.top-img{
-  width: 366px;
-  align-items: center;
+.top-img {
+  width: 320px;
   border-radius: 25px 25px 0 0;
+}
+
+.icon-music {
+  width: 35px;
+  position: absolute;
+  top: 4px;
+  left: 65px;
+}
+
+.top-container {
+  width: 60%;
+  margin: 23px auto;
+}
+
+.middle-container {
+  position: relative;
+  bottom: -14px;
+  line-height: 1;
+  text-align: center;
+}
+
+.change-a {
+  position: absolute;
+  top: 18px;
+  right: 58px;
+  color: #3829E0;
+  font-weight: bold;
+}
+
+.change-a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  color: #7340EC;
+}
+
+.btn {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: 'Red Hat Display', sans-serif;
+  width: 185px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 18px;
+  background-color: #433DF6;
+  -webkit-box-shadow: 0 12px 20px 0 #485E78;
+  -moz-box-shadow: 0 12px 20px 0 #485E78;
+  box-shadow: 0 12px 20px 0 #485E78;
+  text-shadow: -5px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 32px auto 0 auto;
+}
+
+.btn:hover {
+  background: #7340EC;
+  border: solid #8344DE 1px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.cancel {
+  display: inline-block;
+  position: absolute;
+  bottom: 18px;
+  left: 132px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.cancel:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
