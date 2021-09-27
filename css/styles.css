@@ -1,4 +1,7 @@
 body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: aliceblue;
   background-image: url(pattern-background-desktop.svg);
   font-size: 11px;
   text-align: center;
@@ -15,8 +18,11 @@ h2 {
   color: black;
 }
 
-.main-container {
+/* Card */
+
+.card {
   position: relative;
+  top:65px;
   align-items: center;
   width: 320px;
   height: 460px;
@@ -24,6 +30,13 @@ h2 {
   border-radius: 25px;
   border: none;
   background-color: white;
+  }
+
+/* Top container */
+
+.top-container {
+  width: 60%;
+  margin: 23px auto;
 }
 
 .top-img {
@@ -31,16 +44,13 @@ h2 {
   border-radius: 25px 25px 0 0;
 }
 
+/* Middle container */
+
 .icon-music {
   width: 35px;
   position: absolute;
   top: 4px;
   left: 65px;
-}
-
-.top-container {
-  width: 60%;
-  margin: 23px auto;
 }
 
 .middle-container {
@@ -64,6 +74,8 @@ h2 {
   color: black;
   color: #7340EC;
 }
+
+/* Btn  */
 
 .btn {
   -webkit-border-radius: 12px;
@@ -98,6 +110,8 @@ h2 {
   text-decoration: none;
 }
 
+/* Cancel link */
+
 .cancel {
   display: inline-block;
   position: absolute;
@@ -105,11 +119,16 @@ h2 {
   left: 132px;
   text-decoration: none;
   font-weight: bold;
-
 }
 
 .cancel:hover {
   text-decoration: none;
   font-weight: bold;
   color: black;
+}
+
+
+.attribution{
+  position: relative;
+  bottom: -73px;
 }
